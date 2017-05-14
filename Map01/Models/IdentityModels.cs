@@ -29,5 +29,6 @@ namespace Map01.Models
         {
             return new ApplicationDbContext();
         }
+        public System.Data.Entity.DbSet<Map01.Models.Landmarks> Landmarks { get; set; }
     }
 }
